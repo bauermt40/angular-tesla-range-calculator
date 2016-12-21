@@ -14,6 +14,6 @@ import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
   styleUrls: ['./tesla-car.component.scss']
 })
 export class TeslaCarComponent {
-    @Input() wheelSize: number;
+    @Input() wheelsize: number;
     constructor() {}
 }
